@@ -10,8 +10,8 @@ import Config
 # which you should run after static files are built and
 # before starting your production server.
 config :brewex_site, BrewexSiteWeb.Endpoint,
-  url: [host: "localhost", port: 80],
-  check_origin: ["http://127.0.0.1", "http://brewex.io", "http://localhost:4000"],
+  url: [host: "brewex.io", port: 80],
+  check_origin: ["http://127.0.0.1", "//*.brewex.io", "http://localhost:4000"],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 # Do not print debug messages in production
