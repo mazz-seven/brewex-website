@@ -1,0 +1,21 @@
+
+
+@tailwind base;
+
+@tailwind components;
+
+/* Put your custom components here */
+
+@tailwind utilities;
+
+/* Put your custom utilities here */
+
+.feather {
+    /* width: 24px;
+    height: 24px; */
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
