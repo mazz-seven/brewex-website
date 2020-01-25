@@ -55,7 +55,8 @@ defmodule BrewexSiteWeb.PageView do
       <section class="mx-auto container px-6 pt-40">
        <h2 class="text-cool-grey-900 text-3xl sm:text-center font-bold mb-4">Why should you pick Brewex?</h2>
         <p class="sm:mx-32 text-cool-grey-700 text-lg sm:text-center">Brewex takes all the difficult work out of your hands.
-          No more manually provisioning and managing your could servers. Focus on doing what you love: building awesome Elixir applications.
+          No more manually provisioning and managing your could servers.
+          <br />Focus on doing what you love: building awesome Elixir applications.
         </p>
         <div class="flex flex-wrap sm:-mx-6 mt-16">
           <FeatureBox title="Provisioning" icon="upload-cloud">
