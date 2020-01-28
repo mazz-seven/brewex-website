@@ -19,7 +19,6 @@ defmodule FeatureBox do
   end
 end
 
-
 defmodule BrewexSiteWeb.PageView do
   use BrewexSiteWeb, :view
   use Surface.Component
@@ -30,7 +29,7 @@ defmodule BrewexSiteWeb.PageView do
       <div class="bg-cool-grey-900">
         <header class="mx-auto container px-6 py-4 text-cool-grey-0">Brewex.io LOGO</header>
 
-        <div class="flex flex-col items-center bg-cool-grey-900 mx-auto container px-6 pt-16 sm:pt-32 pb-10 sm:pb-24">
+        <div class="flex flex-col items-center bg-cool-grey-900 mx-auto container px-6 pt-16 sm:pt-32 pb-10 pb-32">
 
           <h1 class="pb-6 text-5xl sm:text-6xl font-bold leading-none sm:leading-tighter tracking-tight sm:text-center text-cool-grey-0">
             Make Your Elixir App
@@ -44,16 +43,21 @@ defmodule BrewexSiteWeb.PageView do
             without hassle.
             </p>
           </div>
-          <div class=" flex items-center justify-center pb-6 max-w-xl w-full md:max-w-xl lg:max-w-3xl xl:max-w-4xl mx-auto">
-            <div class="bg-cool-grey-200 w-full h-32 rounded-lg -mb-32 sm:-mb-64">
-              I am some centered shrink-to-fit content! <br />
-              tum te tum
+        </div>
+      </div>
+      <section class="mx-auto container px-6 pt-32">
+      <div class="flex">
+        <div class="-mt-64 shadow-lg flex items-center justify-center pb-6 max-w-xl w-full md:max-w-xl lg:max-w-3xl xl:max-w-4xl mx-auto">
+          <div class="bg-cool-grey-200 w-full h-32 rounded-lg">
+            <div
+              class="ml-form-embed"
+              data-account="1846666:o8e0h2w0e7"
+              data-form="1731876:h1l8e4">
             </div>
           </div>
         </div>
       </div>
-      <section class="mx-auto container px-6 pt-40">
-       <h2 class="text-cool-grey-900 text-3xl sm:text-center font-bold mb-4">Why should you pick Brewex?</h2>
+       <h2 class="text-cool-grey-900 text-3xl sm:text-center font-bold mb-4 mt-40 sm:mt-24">Why should you pick Brewex?</h2>
         <p class="sm:mx-32 text-cool-grey-700 text-lg sm:text-center">Brewex takes all the difficult work out of your hands.
           No more manually provisioning and managing your could servers.
           <br />Focus on doing what you love: building awesome Elixir applications.
@@ -80,9 +84,13 @@ defmodule BrewexSiteWeb.PageView do
           Set and update your application environment variables in Brewex web interface.
           </FeatureBox>
         </div>
-        <div class="mx-auto container px-4 py-16 flex justify-center border-t">
-          <p class="text-lg">Deploy your app in minutes.</p>
-          <div>Form</div>
+        <div class="mx-auto container px-4 py-16 flex flex-col items-center border-t">
+          <p class="text-2xl sm:ml-0 ml-5 font-bold text-light-blue-200">Deploy your app in minutes.</p>
+          <div
+            class="ml-form-embed"
+            data-account="1846666:o8e0h2w0e7"
+            data-form="1731876:h1l8e4">
+          </div>
         </div>
       </section>
       <footer class="bg-cool-grey-900 text-cool-grey-300">
@@ -95,4 +103,3 @@ defmodule BrewexSiteWeb.PageView do
     """
   end
 end
-
