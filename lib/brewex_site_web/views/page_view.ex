@@ -89,7 +89,7 @@ defmodule BrewexSiteWeb.PageView do
       </div>
        <h2 class="text-cool-grey-900 text-3xl sm:text-center font-bold mb-4 mt-40 sm:mt-24">Why should you pick Brewex?</h2>
         <p class="sm:mx-32 text-cool-grey-700 text-lg sm:text-center">Brewex takes all the difficult work out of your hands.
-          No more manually provisioning and managing your could servers.
+          No more manually provisioning and managing your cloud servers.
           <br />Focus on doing what you love: building awesome Elixir applications.
         </p>
         <div class="flex flex-wrap sm:-mx-6 mt-16">
