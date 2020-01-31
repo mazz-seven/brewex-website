@@ -125,7 +125,7 @@ defmodule BrewexSiteWeb.PageView do
       </section>
       <footer class="bg-cool-grey-900 text-cool-grey-300">
         <div class="mx-auto container px-4 py-10">
-        Copyright © 2020 Brewex.io
+        Copyright © 2020 Brewex.io with love
         </div>
       </footer>
     </main>
