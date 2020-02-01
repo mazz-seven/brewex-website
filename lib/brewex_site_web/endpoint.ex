@@ -20,7 +20,7 @@ defmodule BrewexSiteWeb.Endpoint do
     at: "/",
     from: :brewex_site,
     gzip: true,
-    only: ~w(css fonts images js favicon.ico robots.txt feather-sprite.svg)
+    only: ~w(css fonts images js favicon.ico robots.txt sitemap.xml feather-sprite.svg)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
