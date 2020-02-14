@@ -4,7 +4,20 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>BrewexSite · Phoenix Framework</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@brewex_io">
+    <meta name="twitter:title" content="Brewex.io">
+    <meta name="twitter:description" content="Provision, and deploy Elixir application on your own hosting provider without hassle.">
+    <meta name="twitter:image" content="https://brewex.io/images/twitter-meta-card.png">
+    <meta name="twitter:creator" content="@brewex_io">
+    <meta property="og:url" content="https://brewex.io">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Brewex.io">
+    <meta property="og:description" content="Provision, and deploy Elixir application on your own hosting provider without hassle.">
+    <meta property="og:image" content="https://brewex.io/images/twitter-meta-card.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://brewex.io/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://brewex.io/images/favicon-16x16.png">
+    <title>Brewex.io</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
     <%= csrf_meta_tag() %>
     <!-- MailerLite Universal -->
