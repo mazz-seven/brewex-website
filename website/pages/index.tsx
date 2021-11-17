@@ -76,7 +76,7 @@ const Home: NextPage = () => {
               between Digital Ocean and more.
             </FeatureBox>
             <FeatureBox title="Push To Deploy" icon={<GitMerge className="w-8 h-8" />}>
-              Push to master on your GitHub, or custom repository to deploy new code. We'll take care of the rest.
+              Push to master on your GitHub, or custom repository to deploy new code. We&apos;ll take care of the rest.
             </FeatureBox>
             <FeatureBox title="CI/CD Hooks" icon={<Package className="w-8 h-8" />}>
               Brewex allow you to hook into the deployment pipeline, and customize it.
