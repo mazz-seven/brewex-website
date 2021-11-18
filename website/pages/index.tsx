@@ -29,8 +29,8 @@ const Home: NextPage = () => {
           content="Provision, and deploy Elixir application on your own hosting provider without hassle."
         />
         <meta property="og:image" content="https://brewex.io/images/twitter-meta-card.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="https://brewex.io/images/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="https://brewex.io/images/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
         <title>Brewex.io</title>
       </Head>
 
@@ -55,15 +55,15 @@ const Home: NextPage = () => {
             <p className="text-blue-100 text-lg md:text-xl md:text-center">Currently in beta, launching this summer.</p>
           </div>
         </div>
-        <section className="mx-auto container px-6 pt-32">
+        <section className="mx-auto container px-6">
           <div className="flex">
-            <div className="sm:-mt-64 -mt-40 flex items-center justify-center pb-6 max-w-xl w-full md:max-w-xl lg:max-w-3xl xl:max-w-4xl mx-auto">
+            <div className="sm:-mt-8 -mt-10 flex items-center justify-center pb-6 max-w-xl w-full md:max-w-xl lg:max-w-3xl xl:max-w-4xl mx-auto">
               <div className="bg-gray-100 w-full sm:h-[100] h-[110px] rounded-lg">
                 <div className="ml-form-embed" data-account="1846666:o8e0h2w0e7" data-form="1731876:h1l8e4"></div>
               </div>
             </div>
           </div>
-          <h2 className="text-gray-900 text-3xl sm:text-center font-bold mb-4 sm:mt-40">Why Brewex?</h2>
+          <h2 className="text-gray-900 text-3xl sm:text-center font-bold mb-4 mt-16 sm:mt-24">Why Brewex?</h2>
           <p className="sm:mx-32 text-gray-700 text-lg sm:text-center">
             Brewex takes all the difficult work out of your hands. No more manually provisioning and managing your cloud
             servers.
