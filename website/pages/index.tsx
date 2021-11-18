@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <meta name="twitter:title" content="Brewex.io" />
         <meta
           name="twitter:description"
-          content="Provision, and deploy Elixir application on your own hosting provider without hassle."
+          content="Provision and deploy Elixir application on your own hosting provider without hassle."
         />
         <meta name="twitter:image" content="https://brewex.io/images/twitter-meta-card.png" />
         <meta name="twitter:creator" content="@brewex_io" />
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <meta property="og:title" content="Brewex.io" />
         <meta
           property="og:description"
-          content="Provision, and deploy Elixir application on your own hosting provider without hassle."
+          content="Provision and deploy Elixir application on your own hosting provider without hassle."
         />
         <meta property="og:image" content="https://brewex.io/images/twitter-meta-card.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
