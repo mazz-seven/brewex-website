@@ -85,7 +85,7 @@ const Home: NextPage = () => {
               Brewex integrates with LetsEncrypt, allowing you to obtain SSL certificates for free.
             </FeatureBox>
             <FeatureBox title="Secure By Default" icon={<Shield className="w-8 h-8" />}>
-              BBrewex only installs what must be on your production server. Includes SSH authentication and firewall out
+              Brewex only installs what must be on your production server. Includes SSH authentication and firewall out
               of the box. Security updates are installed automatically.
             </FeatureBox>
             <FeatureBox title="Environment Variables" icon={<Globe className="w-8 h-8" />}>
