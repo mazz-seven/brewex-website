@@ -47,7 +47,7 @@ const Home: NextPage = () => {
 
             <div className="max-w-md sm:max-w-xl sm:pb-24 text-xl sm:text-2xl text-gray-200 sm:text-center leading-snug sm:tracking-snug">
               <p className="pb-6">
-                Provision, and deploy Elixir application on{" "}
+                Provision and deploy Elixir application on{" "}
                 <strong className="text-light-blue-600">your own hosting provider </strong>
                 without hassle.
               </p>
@@ -57,13 +57,13 @@ const Home: NextPage = () => {
         </div>
         <section className="mx-auto container px-6 pt-32">
           <div className="flex">
-            <div className="-mt-64 flex items-center justify-center pb-6 max-w-xl w-full md:max-w-xl lg:max-w-3xl xl:max-w-4xl mx-auto">
-              <div className="bg-gray-100 w-full h-32 rounded-lg">
+            <div className="sm:-mt-64 -mt-40 flex items-center justify-center pb-6 max-w-xl w-full md:max-w-xl lg:max-w-3xl xl:max-w-4xl mx-auto">
+              <div className="bg-gray-100 w-full sm:h-[100] h-[110px] rounded-lg">
                 <div className="ml-form-embed" data-account="1846666:o8e0h2w0e7" data-form="1731876:h1l8e4"></div>
               </div>
             </div>
           </div>
-          <h2 className="text-gray-900 text-3xl sm:text-center font-bold mb-4 mt-40 sm:mt-24">Why Brewex?</h2>
+          <h2 className="text-gray-900 text-3xl sm:text-center font-bold mb-4 sm:mt-40">Why Brewex?</h2>
           <p className="sm:mx-32 text-gray-700 text-lg sm:text-center">
             Brewex takes all the difficult work out of your hands. No more manually provisioning and managing your cloud
             servers.
@@ -72,27 +72,27 @@ const Home: NextPage = () => {
           </p>
           <div className="flex flex-wrap sm:-mx-6 mt-16">
             <FeatureBox title="Provisioning" icon={<UploadCloud className="w-8 h-8" />}>
-              We install Nginx, Postgres and more for you in just a few minutes. To help you get started quickly. Choose
-              between Digital Ocean and more.
+              We install Nginx, Postgres, and more for you in just a few minutes. To help you get started quickly.
             </FeatureBox>
             <FeatureBox title="Push To Deploy" icon={<GitMerge className="w-8 h-8" />}>
-              Push to master on your GitHub, or custom repository to deploy new code. We&apos;ll take care of the rest.
+              Push to master on your GitHub or custom repository to deploy new code. We&apos;ll take care of the rest.
             </FeatureBox>
-            <FeatureBox title="CI/CD Hooks" icon={<Package className="w-8 h-8" />}>
-              Brewex allow you to hook into the deployment pipeline, and customize it.
+            <FeatureBox title="CI/CD" icon={<Package className="w-8 h-8" />}>
+              Brewex can automatically build, test and deploy your applications. Use it to catch bugs and errors early
+              in the development cycle.
             </FeatureBox>
             <FeatureBox title="SSL Certificates" icon={<Lock className="w-8 h-8" />}>
-              Integration with LetsEncrypt, allowing you to obtain SSL certificates for free.
+              Brewex integrates with LetsEncrypt, allowing you to obtain SSL certificates for free.
             </FeatureBox>
             <FeatureBox title="Secure By Default" icon={<Shield className="w-8 h-8" />}>
-              Brewex only installs what must on your production server. Includes SSH authentication and firewall out of
-              the box. Security updates are installed automatically.
+              BBrewex only installs what must be on your production server. Includes SSH authentication and firewall out
+              of the box. Security updates are installed automatically.
             </FeatureBox>
             <FeatureBox title="Environment Variables" icon={<Globe className="w-8 h-8" />}>
-              Set and update your application environment variables in Brewex web interface.
+              Set and update your application environment variables on Brewex web interface.
             </FeatureBox>
           </div>
-          <div className="mx-auto container px-4 py-16 flex flex-col items-center border-t">
+          <div className="mx-auto container sm:px-4 py-16 flex flex-col items-center border-t">
             <p className="text-2xl sm:ml-0 ml-5 font-bold text-light-blue-200">Deploy your app in minutes.</p>
             <div
               className="ml-form-embed max-w-xl w-full md:max-w-xl lg:max-w-3xl xl:max-w-4xl rounded-lg"
